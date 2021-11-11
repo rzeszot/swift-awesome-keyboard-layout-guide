@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
   name: "AwesomeKeyboardLayoutGuide",
+  platforms: [
+    .iOS(.v15)
+  ],
   products: [
     .library(name: "AwesomeKeyboardLayoutGuide", targets: ["AwesomeKeyboardLayoutGuide"])
   ],

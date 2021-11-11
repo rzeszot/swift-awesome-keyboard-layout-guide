@@ -1,8 +1,11 @@
 import XCTest
-@testable import AwesomeKeyboardLayoutGuide
+import AwesomeKeyboardLayoutGuide
 
 final class AwesomeKeyboardLayoutGuideTests: XCTestCase {
-  func testExample() throws {
-      XCTAssertTrue(true)
+
+  func test_identifier() {
+    let sut = AwesomeKeyboardLayoutGuide()
+    XCTAssertEqual(sut.identifier, "AwesomeKeyboardLayoutGuide")
   }
+
 }

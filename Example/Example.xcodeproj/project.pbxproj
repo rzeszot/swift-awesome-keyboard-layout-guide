@@ -15,6 +15,14 @@
 		62A5D90F273D3F9400F403C7 /* UIKitExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D90D273D3F9400F403C7 /* UIKitExampleView.swift */; };
 		62A5D911273D3FA800F403C7 /* AwesomeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D910273D3FA800F403C7 /* AwesomeExampleView.swift */; };
 		62A5D912273D3FA800F403C7 /* AwesomeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D910273D3FA800F403C7 /* AwesomeExampleView.swift */; };
+		62A5D915273D441000F403C7 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D914273D441000F403C7 /* UIKitViewController.swift */; };
+		62A5D916273D441000F403C7 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D914273D441000F403C7 /* UIKitViewController.swift */; };
+		62A5D919273D474500F403C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D918273D474500F403C7 /* ViewController.swift */; };
+		62A5D91A273D474500F403C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D918273D474500F403C7 /* ViewController.swift */; };
+		62A5D91C273D4A8500F403C7 /* AwesomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D91B273D4A8500F403C7 /* AwesomeViewController.swift */; };
+		62A5D91D273D4A8500F403C7 /* AwesomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A5D91B273D4A8500F403C7 /* AwesomeViewController.swift */; };
+		62A5D920273D4B9900F403C7 /* AwesomeKeyboardLayoutGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 62A5D91F273D4B9900F403C7 /* AwesomeKeyboardLayoutGuide */; };
+		62A5D926273D4BAC00F403C7 /* AwesomeKeyboardLayoutGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 62A5D925273D4BAC00F403C7 /* AwesomeKeyboardLayoutGuide */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,9 @@
 		62A5D90C273D3E8B00F403C7 /* swift-awesome-keyboard-layout-guide */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "swift-awesome-keyboard-layout-guide"; path = ..; sourceTree = "<group>"; };
 		62A5D90D273D3F9400F403C7 /* UIKitExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExampleView.swift; sourceTree = "<group>"; };
 		62A5D910273D3FA800F403C7 /* AwesomeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeExampleView.swift; sourceTree = "<group>"; };
+		62A5D914273D441000F403C7 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
+		62A5D918273D474500F403C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62A5D91B273D4A8500F403C7 /* AwesomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A5D920273D4B9900F403C7 /* AwesomeKeyboardLayoutGuide in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A5D926273D4BAC00F403C7 /* AwesomeKeyboardLayoutGuide in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +66,7 @@
 				62A5D8EC273D3E6900F403C7 /* Shared */,
 				62A5D8FB273D3E6B00F403C7 /* macOS */,
 				62A5D8F5273D3E6B00F403C7 /* Products */,
+				62A5D91E273D4B9900F403C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				62A5D8ED273D3E6900F403C7 /* ExampleApp.swift */,
-				62A5D90D273D3F9400F403C7 /* UIKitExampleView.swift */,
-				62A5D910273D3FA800F403C7 /* AwesomeExampleView.swift */,
+				62A5D918273D474500F403C7 /* ViewController.swift */,
+				62A5D917273D442C00F403C7 /* Awesome */,
+				62A5D913273D440300F403C7 /* UIKit */,
 				62A5D8EF273D3E6B00F403C7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -92,6 +107,31 @@
 			name = Packages;
 			sourceTree = "<group>";
 		};
+		62A5D913273D440300F403C7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				62A5D90D273D3F9400F403C7 /* UIKitExampleView.swift */,
+				62A5D914273D441000F403C7 /* UIKitViewController.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		62A5D917273D442C00F403C7 /* Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				62A5D910273D3FA800F403C7 /* AwesomeExampleView.swift */,
+				62A5D91B273D4A8500F403C7 /* AwesomeViewController.swift */,
+			);
+			path = Awesome;
+			sourceTree = "<group>";
+		};
+		62A5D91E273D4B9900F403C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,8 +146,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				62A5D922273D4BA200F403C7 /* PBXTargetDependency */,
 			);
 			name = "Example (iOS)";
+			packageProductDependencies = (
+				62A5D91F273D4B9900F403C7 /* AwesomeKeyboardLayoutGuide */,
+			);
 			productName = "Example (iOS)";
 			productReference = 62A5D8F4273D3E6B00F403C7 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -123,8 +167,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				62A5D924273D4BA800F403C7 /* PBXTargetDependency */,
 			);
 			name = "Example (macOS)";
+			packageProductDependencies = (
+				62A5D925273D4BAC00F403C7 /* AwesomeKeyboardLayoutGuide */,
+			);
 			productName = "Example (macOS)";
 			productReference = 62A5D8FA273D3E6B00F403C7 /* Example.app */;
 			productType = "com.apple.product-type.application";
@@ -190,9 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A5D919273D474500F403C7 /* ViewController.swift in Sources */,
 				62A5D90E273D3F9400F403C7 /* UIKitExampleView.swift in Sources */,
+				62A5D915273D441000F403C7 /* UIKitViewController.swift in Sources */,
 				62A5D8FD273D3E6B00F403C7 /* ExampleApp.swift in Sources */,
 				62A5D911273D3FA800F403C7 /* AwesomeExampleView.swift in Sources */,
+				62A5D91D273D4A8500F403C7 /* AwesomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,13 +251,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A5D91A273D474500F403C7 /* ViewController.swift in Sources */,
 				62A5D90F273D3F9400F403C7 /* UIKitExampleView.swift in Sources */,
+				62A5D916273D441000F403C7 /* UIKitViewController.swift in Sources */,
 				62A5D8FE273D3E6B00F403C7 /* ExampleApp.swift in Sources */,
 				62A5D912273D3FA800F403C7 /* AwesomeExampleView.swift in Sources */,
+				62A5D91C273D4A8500F403C7 /* AwesomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62A5D922273D4BA200F403C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 62A5D921273D4BA200F403C7 /* AwesomeKeyboardLayoutGuide */;
+		};
+		62A5D924273D4BA800F403C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 62A5D923273D4BA800F403C7 /* AwesomeKeyboardLayoutGuide */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		62A5D903273D3E6B00F403C7 /* Debug */ = {
@@ -468,6 +533,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62A5D91F273D4B9900F403C7 /* AwesomeKeyboardLayoutGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AwesomeKeyboardLayoutGuide;
+		};
+		62A5D921273D4BA200F403C7 /* AwesomeKeyboardLayoutGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AwesomeKeyboardLayoutGuide;
+		};
+		62A5D923273D4BA800F403C7 /* AwesomeKeyboardLayoutGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AwesomeKeyboardLayoutGuide;
+		};
+		62A5D925273D4BAC00F403C7 /* AwesomeKeyboardLayoutGuide */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AwesomeKeyboardLayoutGuide;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 62A5D8E8273D3E6900F403C7 /* Project object */;
 }

@@ -2,8 +2,7 @@ import SwiftUI
 
 struct UIKitExampleView: View {
   var body: some View {
-    Color.purple
+    UIKitViewController()
       .ignoresSafeArea()
-      .overlay(Text("UIKit"))
   }
 }
